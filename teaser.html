@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>FirefoxOS Prez</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Super Mack">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/one-mozilla.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<!--<h1><img src="img/mozilla-wordmark-800px.png"></h1>-->
+          <img src="img/fxos.png" width="40%" height="40%">
+					<h3>Firefox OS Project</h3>
+					<p>
+          <small>Med Manai - Lead Designer @<a href="http:\\www.freewaysclub.com">Freeways</a> - Représentant @<a href="www.mozilla.org">Mozilla</a></small>
+					</p>
+				</section>
+
+				<section>
+          <section>
+					  <h2>C'est quoi ?</h2><br>
+					  <p>Un système d'exploitation open source développé par Mozilla pour les smartphones ( +tablettes ) basé sur les nouvelles technologies du Web</p>
+          </section>
+
+          <section>
+            <h2>Pourquoi ?</h2><br>
+            <ul>
+            <li class="fragment">100% Open Source</li>
+            <li class="fragment">GRATOS</li>
+            <li class="fragment">Basé sur les principes de l'OpenWeb</li>
+            <li class="fragment">Basé sur les nouvelles technologies du Web ( HTML5, CSS3, Javascript, .. )</li>
+            <li class="fragment">Facile à hacker*<br><small><i>[*]:hacker=développer</i></small></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Quoi de spécial ?</h2><br>
+            
+            <H3>Faisons une comparaison</H3>
+            
+          </section>
+
+          <section>
+          <h2>What you need <br>for an iOS App</h2>
+            <img src="img/ios.png" width="80%" height="80%">
+          </section>
+
+          <section>
+          <h2>What you need <br>for an Android App</h2>
+            <img src="img/android.png" width="80%" height="80%">
+          </section>
+
+          <section>
+          <h2>What you need <br>for a FirefoxOS App</h2>
+            <img src="img/fxosdev.png" width="80%" height="80%">
+          </section>
+
+          <section>
+          <h2>This is awesome right ?!</h2>
+            <img src="img/awesome.gif" width="80%" height="80%">
+          </section>
+
+				</section>
+
+			<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Nos buts </h2><br>
+						<ol>
+              <li class="fragment">Promouvoir FirefoxOS à l'ISI</li>
+              <li class="fragment">Initier les étudiants aux technologies du Web</li>
+              <li class="fragment">Construire une équipe</li>
+              <li class="fragment">Préparer une documentation</li>
+              <li class="fragment">Fournir les outils nécessaires à tout le monde</li>
+              <li class="fragment">Une application par membre</li>
+            </ol>
+					</section>
+					
+				</section>
+
+        <section>
+          <section>
+            <h2>Intéressé(e) ?<br><br>Venez me voir au stand<br>FirefoxOS<br><br>to see the magic :D</h2>
+          </section>
+          
+          
+        </section>
+
+
+        
+				<section>
+        <style>
+          #finalimg{
+            float:left;
+          }
+
+          #ftext{
+            margin-top:25%;
+          }
+        </style>
+            <img id="finalimg" src="img/FirefoxOS.2.png"/></td>
+            <div id="ftext">
+              <h2> Merci :)</h2>
+          </tr>
+        </table>
+			</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
